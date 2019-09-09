@@ -1,0 +1,20 @@
+{
+  "name": "node-auth-project-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": "https://github.com/ShaunKolich/node-db-challenge.git",
+  "author": "ShaunKolich",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "helmet": "^3.21.0",
+    "knex": "^0.19.3",
+    "nodemon": "^1.19.2",
+    "sqlite3": "^4.1.0"
+  }
+}
